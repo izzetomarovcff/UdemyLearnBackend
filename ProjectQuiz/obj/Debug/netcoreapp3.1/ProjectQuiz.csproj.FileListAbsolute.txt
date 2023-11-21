@@ -1,0 +1,13 @@
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.exe
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.deps.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.runtimeconfig.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.runtimeconfig.dev.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\bin\Debug\netcoreapp3.1\ProjectQuiz.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.csprojAssemblyReference.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.AssemblyInfoInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.AssemblyInfo.cs
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.csproj.CoreCompileInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ProjectQuiz\obj\Debug\netcoreapp3.1\ProjectQuiz.genruntimeconfig.cache
