@@ -25,11 +25,13 @@ namespace ProjectQuiz
         {
             this.Questions = questions;
             this.QuestionIndex = 0;
+            this.Score =0;
         }
         private Question[] Questions { get; set; }
-        public int QuestionIndex { get; set; }
+        private int QuestionIndex { get; set; }
+        private int Score { get; set; }
 
-        public Question GetQuestion()
+        private Question GetQuestion()
         {
             return this.Questions[this.QuestionIndex];
         }
@@ -37,6 +39,7 @@ namespace ProjectQuiz
         public void DisplayQuestion()
         {
             var question = this.GetQuestion();
+            this.DisplayProgress();
             Console.WriteLine($"{this.QuestionIndex+1}. {question.Text}");
             foreach (var choice in question.Choices)
             {
@@ -46,20 +49,37 @@ namespace ProjectQuiz
             var cevap = Console.ReadLine();
             this.Guess(cevap);
         }
-        public void Guess(string answer)
+        private void Guess(string answer)
         {
             var question = this.GetQuestion();
-            Console.WriteLine(question.CheckAnswer(answer)); //skor
+            if(question.CheckAnswer(answer))
+            {
+                this.Score++;
+            }
+            //skor
+            
             this.QuestionIndex++;
 
             if(this.Questions.Length == this.QuestionIndex)
             {
-                //skor
-                return;
+                this.DisplayScore();
             }else{
                 this.DisplayQuestion();
             }
             
+        }
+        private void DisplayScore()
+        {
+            Console.WriteLine($"Score: {this.Score}");
+        }
+        private void DisplayProgress()
+        {
+            int totalQuestion = this.Questions.Length;
+            int questionNumber = this.QuestionIndex+1;
+
+            if(totalQuestion>=questionNumber){
+                Console.WriteLine($"Question {questionNumber}/{totalQuestion}");
+            }
         }
     }
     class Program
