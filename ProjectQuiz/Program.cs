@@ -19,6 +19,49 @@ namespace ProjectQuiz
             return this.Answer.ToLower() == answer.ToLower();
         }
     }
+    class Quiz
+    {
+        public Quiz(Question[] questions)
+        {
+            this.Questions = questions;
+            this.QuestionIndex = 0;
+        }
+        private Question[] Questions { get; set; }
+        public int QuestionIndex { get; set; }
+
+        public Question GetQuestion()
+        {
+            return this.Questions[this.QuestionIndex];
+        }
+
+        public void DisplayQuestion()
+        {
+            var question = this.GetQuestion();
+            Console.WriteLine($"{this.QuestionIndex+1}. {question.Text}");
+            foreach (var choice in question.Choices)
+            {
+                Console.WriteLine($"{choice}");
+            }
+            Console.Write("Cevap: ");
+            var cevap = Console.ReadLine();
+            this.Guess(cevap);
+        }
+        public void Guess(string answer)
+        {
+            var question = this.GetQuestion();
+            Console.WriteLine(question.CheckAnswer(answer)); //skor
+            this.QuestionIndex++;
+
+            if(this.Questions.Length == this.QuestionIndex)
+            {
+                //skor
+                return;
+            }else{
+                this.DisplayQuestion();
+            }
+            
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -28,25 +71,8 @@ namespace ProjectQuiz
             var q3 = new Question("En cok kazandiran programlama dili hangisidir?",new string[]{"C#","Java","Python","C++"},"C#");
             
             var questions = new Question[]{q1,q2,q3};
-
-            int index=1;
-            foreach (var question in questions)
-            {
-                Console.WriteLine($"{index}. {question.Text}");
-                index++;
-                foreach (var choice in question.Choices)
-                {
-                    Console.WriteLine($"{choice}");
-                }
-                Console.Write("Cevap: ");
-                var cevap = Console.ReadLine();
-                Console.WriteLine(question.CheckAnswer(cevap));
-                
-            }
-
-            Console.WriteLine(q1.CheckAnswer("C#"));
-            Console.WriteLine(q2.CheckAnswer("Java"));
-            Console.WriteLine(q3.CheckAnswer("C++"));
+            var quiz = new Quiz(questions);
+            quiz.DisplayQuestion();
         }
     }
 }
