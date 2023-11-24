@@ -1,0 +1,13 @@
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.exe
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.deps.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.runtimeconfig.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.runtimeconfig.dev.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\bin\Debug\netcoreapp3.1\405_static_members.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.csprojAssemblyReference.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.AssemblyInfoInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.AssemblyInfo.cs
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.csproj.CoreCompileInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\405_static_members\obj\Debug\netcoreapp3.1\405_static_members.genruntimeconfig.cache
