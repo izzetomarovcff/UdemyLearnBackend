@@ -1,0 +1,13 @@
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.exe
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.deps.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.runtimeconfig.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.runtimeconfig.dev.json
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\bin\Debug\netcoreapp3.1\ders_404.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.csprojAssemblyReference.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.AssemblyInfoInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.AssemblyInfo.cs
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.csproj.CoreCompileInputs.cache
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.dll
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.pdb
+C:\Users\99470\Desktop\PRJ\UdemyLearnBackend\ders_404\obj\Debug\netcoreapp3.1\ders_404.genruntimeconfig.cache
